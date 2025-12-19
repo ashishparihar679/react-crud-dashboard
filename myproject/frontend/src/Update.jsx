@@ -24,7 +24,7 @@ const Update = () => {
 
   const handleUpdate = async (e) => {
     e.preventDefault();
-    await axios.put(`http://localhost:3000/parihar/${id}`, user);
+    await axios.put(`https://back-3gzx.onrender.com/parihar/${id}`, user);
     alert("Updated");
     navigate("/");
   };

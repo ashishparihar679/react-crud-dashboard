@@ -13,25 +13,31 @@ const Login = () => {
   const [error, setError] = useState("");
   const [password, setPassword] = useState("");
 
+  const API_URL = "https://back-3gzx.onrender.com/parihar";
+
   const handleLogin = async (e) => {
     e.preventDefault();
 
     try {
-      const res = await axios.get(
-        `https://back-3gzx.onrender.com/parihar?email=${email}&password=${password}`
-      );
+      const res = await axios.get(API_URL, {
+        params: {
+          email: email,
+          password: password,
+        },
+      });
 
       if (res.data.length > 0) {
         localStorage.setItem("username", res.data[0].name);
-        login(); // context login
-        navigate("/"); // home
+        login();
+        navigate("/");
       } else {
         setError("Invalid credentials");
       }
-    } catch {
+    } catch (err) {
       setError("Server error");
     }
   };
+
   //   localStorage.setItem("username", res.data[0].name);
 
   return (
