@@ -44,7 +44,13 @@ const Nav = () => {
           to="/create"
           className={isActive("/create") ? "nav-btn active" : "nav-btn"}
         >
-          Create
+          signup
+        </Link>
+         <Link
+          to="/login"
+          className={isActive("/create") ? "nav-btn active" : "nav-btn"}
+        >
+          Login
         </Link>
 
         
