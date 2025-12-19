@@ -27,13 +27,6 @@
       "email": "neha@gmail.com",
       "phone": "9090909090",
       "password": "neha789"
-    },
-    {
-      "id": "6",
-      "name": "Vikas",
-      "email": "vikas@gmail.com",
-      "phone": "8887776665",
-      "password": "vikas321"
     }
   ]
 }

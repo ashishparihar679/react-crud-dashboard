@@ -14,7 +14,7 @@ const Update = () => {
   });
 
   useEffect(() => {
-    axios.get(`http://localhost:3000/parihar/${id}`)
+    axios.get(`https://back-3gzx.onrender.com/parihar/${id}`)
       .then(res => setUser(res.data));
   }, [id]);
 

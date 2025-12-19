@@ -18,7 +18,7 @@ const Home = () => {
 
   const fetchData = () => {
     axios
-      .get("http://localhost:3000/parihar")
+      .get("https://back-3gzx.onrender.com/parihar")
       .then((res) => setData(res.data))
       .catch(() => setError("Data load nahi ho pa raha"))
       .finally(() => setLoading(false));
@@ -34,7 +34,7 @@ const Home = () => {
     if (!confirmDelete) return;
 
     axios
-      .delete(`http://localhost:3000/parihar/${id}`)
+      .delete(`https://back-3gzx.onrender.com/parihar/${id}`)
       .then(() => {
         // UI se turant remove
         setData(data.filter((item) => item.id !== id));

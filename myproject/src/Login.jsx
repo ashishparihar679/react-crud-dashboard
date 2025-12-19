@@ -18,7 +18,7 @@ const Login = () => {
 
     try {
       const res = await axios.get(
-        `http://localhost:3000/parihar?email=${email}&password=${password}`
+        `https://back-3gzx.onrender.com/parihar?email=${email}&password=${password}`
       );
 
       if (res.data.length > 0) {

@@ -15,7 +15,7 @@ const Create = () => {
       return;
     }
 
-    await axios.post("http://localhost:3000/parihar", {
+    await axios.post("https://back-3gzx.onrender.com/parihar", {
       name,
       email,
       phone,
