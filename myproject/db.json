@@ -1,0 +1,39 @@
+{
+  "parihar": [
+    {
+      "id": "1",
+      "name": "Ashish",
+      "email": "ashish@gmail.com",
+      "phone": "1234567890",
+      "password": "12345"
+    },
+    {
+      "id": "3",
+      "name": "Aman",
+      "email": "aman@gmail.com",
+      "phone": "9123456789",
+      "password": "aman@123"
+    },
+    {
+      "id": "4",
+      "name": "Suman",
+      "email": "suman@gmail.com",
+      "phone": "9988776655",
+      "password": "suman456"
+    },
+    {
+      "id": "5",
+      "name": "Neha",
+      "email": "neha@gmail.com",
+      "phone": "9090909090",
+      "password": "neha789"
+    },
+    {
+      "id": "6",
+      "name": "Vikas",
+      "email": "vikas@gmail.com",
+      "phone": "8887776665",
+      "password": "vikas321"
+    }
+  ]
+}
