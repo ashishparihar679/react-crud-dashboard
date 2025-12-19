@@ -48,12 +48,12 @@ const Login = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
 
-        <input
+        {/* <input
           type="text"
           placeholder="Phone"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
-        />
+        /> */}
 
         <input
           type="password"

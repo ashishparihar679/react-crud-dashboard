@@ -75,6 +75,7 @@ const Home = () => {
             <th>Name</th>
             <th>Email</th>
             <th>Phone</th>
+            <th>Password</th>
             <th>Action</th>
           </tr>
         </thead>
@@ -86,6 +87,7 @@ const Home = () => {
               <td>{u.name}</td>
               <td>{u.email}</td>
               <td>{u.phone}</td>
+              <td>{u.password}</td>
               <td>
                 <button
                   className="btn-primary"

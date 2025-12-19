@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
 const App = () => {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/react-crud-dashboard">
         <Routes>
 
           {/* Public Route */}
