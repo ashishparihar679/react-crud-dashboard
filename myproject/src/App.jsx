@@ -23,7 +23,8 @@ const Layout = ({ children }) => {
 const App = () => {
   return (
     <AuthProvider>
-      <BrowserRouter basename="/react-crud-dashboard">
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
+
         <Routes>
 
           {/* Public Route */}
